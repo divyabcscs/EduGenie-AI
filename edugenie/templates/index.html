@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>EduGenie</title>
+
+    <link rel="stylesheet"
+          href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <header class="header">
+
+            <h1>
+                Welcome to EduGenie 🧠✨
+            </h1>
+
+            <p>
+                Your personal AI tutor for learning support!
+            </p>
+
+        </header>
+
+
+        <section class="feature-section">
+
+            <h3>Ask EduGenie a Question:</h3>
+
+            <form id="qa-form">
+
+                <div class="input-row">
+
+                    <input
+                        type="text"
+                        id="qa-input"
+                        placeholder="Why is the sky blue?"
+                        required
+                    >
+
+                    <button type="submit">
+                        Get Answer
+                    </button>
+
+                </div>
+
+            </form>
+
+            <div id="qa-result" class="output"></div>
+
+        </section>
+
+
+        <section class="feature-section">
+
+            <h3>Need an Explanation?</h3>
+
+            <form id="explain-form">
+
+                <div class="input-row">
+
+                    <input
+                        type="text"
+                        id="explain-input"
+                        placeholder="Photosynthesis"
+                        required
+                    >
+
+                    <button type="submit">
+                        Explain
+                    </button>
+
+                </div>
+
+            </form>
+
+            <div id="explain-result" class="output"></div>
+
+        </section>
+
+
+        <section class="feature-section">
+
+            <h3>Summarize a Paragraph:</h3>
+
+            <form id="summary-form">
+
+                <div class="input-row">
+
+                    <input
+                        type="text"
+                        id="summary-input"
+                        placeholder="Paste long content to summarize"
+                        required
+                    >
+
+                    <button type="submit">
+                        Summarize
+                    </button>
+
+                </div>
+
+            </form>
+
+            <div id="summary-result" class="output"></div>
+
+        </section>
+
+
+        <section class="feature-section">
+
+            <h3>Generate a Quiz:</h3>
+
+            <form id="quiz-form">
+
+                <div class="input-row">
+
+                    <input
+                        type="text"
+                        id="quiz-input"
+                        placeholder="Solar System"
+                        required
+                    >
+
+                    <button type="submit">
+                        Generate Quiz
+                    </button>
+
+                </div>
+
+            </form>
+
+            <div id="quiz-result" class="output"></div>
+
+        </section>
+
+
+        <section class="feature-section">
+
+            <h3>Get Learning Recommendations:</h3>
+
+            <form id="learning-form">
+
+                <div class="input-row">
+
+                    <input
+                        type="text"
+                        id="learning-input"
+                        placeholder="e.g. Linear Regression"
+                        required
+                    >
+
+                    <button type="submit">
+                        Get Recommendations
+                    </button>
+
+                </div>
+
+            </form>
+
+            <div id="learning-result" class="output"></div>
+
+        </section>
+
+    </div>
+
+    <script src="/static/app.js"></script>
+
+</body>
+
+</html>
